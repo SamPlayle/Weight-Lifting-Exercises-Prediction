@@ -66,6 +66,7 @@ with(training, {
  }
 )
 ```
+
 We included the last one (`roll_arm`) as an example of of a variable whose distribution is actually quite standard, unlike the others. 
 
 Some of the data are very skewed, for example, all of the variables whose names begin with `var`... are very skewed towards 0, so we perform a log transform to make the distributions more standardized. Let's plot some histograms showing how the log transformations make these distributions more normalized. We'll pick three of the `var`... variables to plot in the top row and plot the distributions of their log transforms in the bottom row.
